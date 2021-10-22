@@ -22,33 +22,24 @@
   </head>
   <body class="text-center">
 
-<main class="form-signin">
-  <form>
+<main class="form-signin" >
+  <form action="/" method="POST">
     <img class="mb-4" src="images/vibrantcomp.png" alt="image of computer" />
     <h1 class="h3 mb-3 fw-normal">Signup to our Newsletter!</h1>
 
     <div class="form-floating top">
-      <input type="text" class="form-control"  placeholder="First Name" required autofocus>
+      <input type="text" name="fname" class="form-control"  placeholder="First Name" required autofocus>
       <label for="first name">First Name</label>
     </div>
-
     <div class="form-floating middle">
-      <input type="text" class="form-control" placeholder="Last Name" required />
+      <input type="text" name="lname" class="form-control" placeholder="Last Name" required />
       <label for="last name">Last Name</label>
     </div>
-
     <div class="form-floating bottom">
-      <input type="email" class="form-control"  placeholder="Email" required>
+      <input type="email" name="email" class="form-control"  placeholder="Email" required>
       <label for="email">Email</label>
     </div>
 
-
-
-    <!-- <div class="checkbox mb-3">
-      <label>
-        <input type="checkbox" value="remember-me"> Remember me
-      </label>
-    </div> -->
     <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Me up!</button>
     <p class="mt-5 mb-3 text-muted"> © Tech Geeks Weekly</p>
   </form>
