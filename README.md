@@ -10,7 +10,9 @@ details of development:
 
 posted the data to mailchimps servers via their API, also added the success and failure pages.
 
-deployed app to live web server heroku
+deployed app to live web server heroku 
+
+used: HTML, CSS, Javascript, Bootstrap, node.js, git, and heroku
 
 //
 
