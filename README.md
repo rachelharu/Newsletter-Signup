@@ -16,5 +16,5 @@ used: HTML, CSS, Javascript, Bootstrap, node.js, git, and heroku
 
 //
 
-LIVE PREVIEW http://quiet-anchorage-28531.herokuapp.com/
+
 
